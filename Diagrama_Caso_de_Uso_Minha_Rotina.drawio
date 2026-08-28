@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Caso de Uso - Minha Rotina" id="ucd2">
+    <mxGraphModel dx="1562" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1150" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=13;align=center;spacingTop=6;" value="Minha Rotina — Sistema de Gerenciamento de Rotina para Neurodivergentes" vertex="1">
+          <mxGeometry height="860" width="1090" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cadastrar Rotina" vertex="1">
+          <mxGeometry height="50" width="220" x="80" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Cadastrar Tarefa" vertex="1">
+          <mxGeometry height="50" width="220" x="190" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Visualizar Rotina do Dia" vertex="1">
+          <mxGeometry height="50" width="220" x="210" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Marcar Tarefa como Concluída" vertex="1">
+          <mxGeometry height="50" width="220" x="260" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Gerenciar Lista de Compras" vertex="1">
+          <mxGeometry height="50" width="220" x="340" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Vincular Lista de Compras à Tarefa" vertex="1">
+          <mxGeometry height="50" width="220" x="230" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Cadastrar Medicamento" vertex="1">
+          <mxGeometry height="50" width="220" x="680" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Confirmar Uso de Medicamento" vertex="1">
+          <mxGeometry height="50" width="220" x="490" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Enviar Lembrete de Medicação" vertex="1">
+          <mxGeometry height="50" width="220" x="850" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Personalizar Perfil Sensorial" vertex="1">
+          <mxGeometry height="50" width="220" x="690" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Acessar Tela de Suporte em Crise" vertex="1">
+          <mxGeometry height="50" width="220" x="860" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uc12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Visualizar Relatório de Consistência" vertex="1">
+          <mxGeometry height="50" width="220" x="260" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="atUsuario" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Usuário" vertex="1">
+          <mxGeometry height="80" width="40" x="590" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="atCuidador" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cuidador/Familiar" vertex="1">
+          <mxGeometry height="80" width="40" x="140" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="atProfissional" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Profissional de Saúde" vertex="1">
+          <mxGeometry height="80" width="40" x="990" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="atSistema" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Sistema de Notificação" vertex="1">
+          <mxGeometry height="80" width="40" x="970" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="atAcompanhante" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=2;" value="Acompanhante (abstrato)" vertex="1">
+          <mxGeometry height="80" width="40" x="800" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="atUsuario" style="endArrow=none;html=1;" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="atUsuario" style="endArrow=none;html=1;" target="uc2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="atUsuario" style="endArrow=none;html=1;" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="atUsuario" style="endArrow=none;html=1;" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="atUsuario" style="endArrow=none;html=1;" target="uc5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="atUsuario" style="endArrow=none;html=1;" target="uc7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="atUsuario" style="endArrow=none;html=1;" target="uc8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="atUsuario" style="endArrow=none;html=1;" target="uc10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="atUsuario" style="endArrow=none;html=1;" target="uc11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="atCuidador" style="endArrow=none;html=1;" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="atCuidador" style="endArrow=none;html=1;" target="uc7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="atSistema" style="endArrow=none;html=1;" target="uc9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="atAcompanhante" style="endArrow=none;html=1;" target="uc12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" edge="1" parent="1" source="atCuidador" style="endArrow=block;endFill=0;endSize=16;html=1;" target="atAcompanhante">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" edge="1" parent="1" source="atProfissional" style="endArrow=block;endFill=0;endSize=16;html=1;" target="atAcompanhante">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc1" edge="1" parent="1" source="uc7" style="endArrow=open;dashed=1;html=1;fontSize=10;" target="uc9" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext1" edge="1" parent="1" source="uc6" style="endArrow=open;dashed=1;html=1;fontSize=10;" target="uc2" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
